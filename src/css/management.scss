@@ -1,0 +1,92 @@
+$DefauiltPadding :2rem 3rem;
+$DefauiltFontSize : 1.3rem;
+$DefauiltBorder : 0.2rem rgb(240, 240, 240) solid;
+
+.holiday_management{
+    padding: $DefauiltPadding;
+    position: relative;
+    width: 100%;
+    height: auto;
+    h3{
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-bottom: 4rem;
+    }
+    
+    p{
+        font-size: $DefauiltFontSize ;
+        margin: 2.5rem 0 1.2rem;
+    }
+
+    input{
+        width: 20rem;
+        height: 3rem;
+        font-size: $DefauiltFontSize ;
+    }
+}
+
+.modal_btn{
+    position: absolute;
+    top: 0;
+    right: 3rem;
+    border: $DefauiltBorder;
+    font-size: 1rem; 
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+
+.new_employee{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: $DefauiltPadding;
+    background-color: white;
+    border-radius: 10px;
+
+    h3{
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin:2.5rem 0 4rem;
+        text-align: center;
+    }
+    
+    p{
+        font-size: $DefauiltFontSize ;
+        margin: 2rem 0 1.2rem;
+    }
+
+    input{
+        width: 20rem;
+        height: 3rem;
+        font-size: $DefauiltFontSize ;
+        text-align: center;
+    }
+
+    a{
+        text-align: center;
+        margin-top: 2rem;
+        background-color: beige;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .add_btn_box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+.modal_show{
+    visibility:visible;
+}
+
+.modal_hide{
+    visibility: hidden;
+}
+
