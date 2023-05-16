@@ -20,7 +20,7 @@ const NewEmployeeModal = ({ modalState, showModal }) => {
                         <p>연차</p>
                     </li>
                     <li>
-                        <input type="text" name="annual" id="annual" />
+                        <input type="number" name="annual" id="annual" />
                     </li>
                     <li className="add_btn_box">
                         <span className="madal_save_btn" onClick={()=>{showModal()}}>등록하기</span>
